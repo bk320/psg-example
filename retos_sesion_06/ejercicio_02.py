@@ -1,13 +1,13 @@
 print("Operador XNOR")
-print("Cuando ambos valores son diferentes, el resultado es False")
-print("para el caso de a = True, b = False")
-# Operador XNOR valores diferentes
-a=True
-b=False
-print(a == b)
-print("Cuando ambos valores son iguales, el resultado es True")
-print("para el caso de a = True, b = True")
-# Operador XNOR valores iguales
-a=True
-b=True
-print(a == b)
+a = True
+b = True
+print(f"a = {a}, b = {b} -> a XNOR b = {not ((a or b) and not (a and b))}")
+a = True
+b = False
+print(f"a = {a}, b = {b} -> a XNOR b = {not ((a or b) and not (a and b))}")
+a = False
+b = True
+print(f"a = {a}, b = {b} -> a XNOR b = {not ((a or b) and not (a and b))}")
+a = False
+b = False
+print(f"a = {a}, b = {b} -> a XNOR b = {not ((a or b) and not (a and b))}")
