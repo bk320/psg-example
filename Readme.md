@@ -1,4 +1,10 @@
 # Descripcion del Proyecto
 
-*Este proyecto tiene como fin evidenciar el avance de los distintos retos propuestos en el*  
+*El proyecto contendrá un avance de retos y reflejará la constancia en mejorar.*
+El contenido de las carpetas será::
+
+1. **Retos de las sesiones**: Ejercicios propuestos en cada reunión.  
+2. **Avances en las sesiones**: Ejemplos teóricos y prácticos para reforzar los conceptos.
+3. **Archivos de ejemplo**: Recursos adicionales para comprender mejor los temas tratados.
+
 ***Python Study Group For Beginners.***  

@@ -13,6 +13,13 @@
 *Siempre es divertido hablar con amigos, comer cosas dulces con ellos y leer libros*  
 *de fantasía e investigación.*  
 *Creo firmemente que **nada es imposible**; solo tenemos que entender mejor las cosas.*
+*Prioridades*
+
+1. Pasar tiempo con la familia.
+2. Mejorarse constantemente.
+3. Pasar tiempo con los amigos.
+4. Superar retos personales.
+5. Leer libros interesantes.
 
 > No alcanza la iluminación quien imagina figuras de luz, sino quien hace consciente su oscuridad.  
 > — Carl Jung
