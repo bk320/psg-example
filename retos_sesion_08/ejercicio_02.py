@@ -2,7 +2,7 @@
 tupla = ('a','b','c','d','e','f','g','h','i','j')
 primer_elemento = tupla[0]
 ultimo_elemento = tupla[-1]
-slide_tupla = tupla[3:5]
+slide_tupla = tupla[3:6] # el inicio es inclusivo y el final exclusivo
 slide_tupla_tres_pasos = tupla[5:9:3]
 slide_tupla_dos_pasos = tupla[9:0:-2]
 print(f"Tupla: {tupla}")
