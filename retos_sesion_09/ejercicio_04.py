@@ -41,12 +41,12 @@ total_precio = sum(lista_precios)
 print(f'Precio total de los productos es: {total_precio} \n')
 
 # Ordenar los productos del mas caro al mas barato
-indices_mayor_a_menor = sorted(range(len(lista_precios)), \
-    key=lambda i: lista_precios[i], reverse=True)
-productos_ordenados = [lista_productos[i] for i in indices_mayor_a_menor]
-precios_ordenados = [lista_precios[i] for i in indices_mayor_a_menor]
+productos_y_precios = list(zip(lista_productos, lista_precios))
+productos_y_precios.sort(key=lambda x: x[1], reverse=True)
+productos_ordenados = [producto for producto, precio in productos_y_precios]
+precios_ordenados = [precio for producto, precio in productos_y_precios]
 print(f'Productos ordenados de mayor a menor precio: \n{productos_ordenados}\n')
-print(f'Precios ordenados de mayor a menor precio: \n{precios_ordenados}')
+print(f'Precios ordenados de mayor a menor preddcio: \n{precios_ordenados}')
 
 # Eliminar todos los productos y precios de las listas
 lista_productos.clear()
