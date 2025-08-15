@@ -22,8 +22,9 @@ respuestas = {
     True: "Si, existe el hábitat 'amazonas' en el diccionario de hábitats en peligro"
 }
 existe = "amazonas" in habitats_en_peligro
-print("Existe en el diccionario el habitat 'amazonas'?")
+print("\nExiste en el diccionario el habitat 'amazonas'?")
 print(respuestas[existe])
 
 # Añade al amazonas la especie 'anaconda'
 habitats_en_peligro["amazonas"]["especies"].add("anaconda")
+print(f'\nhabitats_en_peligro: \n{habitats_en_peligro} \n')

@@ -32,7 +32,7 @@ respuestas = {
     True: "Si, existe la especie 'dragon' 🐲 en el arca"
 }
 existe = "🐲" in animales
-print("Existe en el arca la especie 'dragon' 🐲?")
+print("\nExiste en el arca la especie 'dragon' 🐲?")
 print(respuestas[existe])
 
 # Elimina la especie unicornio del arca
@@ -41,5 +41,7 @@ unicornio = animales.pop("🦄")
 # Modifica el valor de la especie jirafa por 2
 animales["🦒"] = 2
 
+print(f'\nEl arca actualmente tiene los siguientes animales: \n{animales}\n')
 # Vacía el arca después del diluvio
 animales.clear()
+print(f'lista vacia: {animales}\n')
