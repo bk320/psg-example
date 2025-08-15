@@ -1,7 +1,6 @@
 # Ejercicio 1
 
-lista = ['📎','📐','📏','✏️','🖊️','🖋️','📎','📌','📏','📇','🗂️' \
-    ,'📁','📌','🗃️','✏️','📂','🖇️']
+cadena = "📎📐📏✏️🖊️🖋️📎📌📏📇🗂️📁📌🗃️✏️📂🖇️"
 
-conjunto = set(lista)
+conjunto = set(cadena)
 print(conjunto)
