@@ -11,6 +11,8 @@ while True:
         if monto_retiro == 'salir':
             break
         monto_retiro = float(monto_retiro)
+        if monto_retiro <= 0:
+            raise Exception("El monto de retiro debe ser mayor a 0, por favor")
         if monto_retiro > 1000:
             raise Exception("El monto excede el límite permitido por transacción")
         if monto_retiro > saldo:
