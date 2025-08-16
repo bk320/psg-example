@@ -1,21 +1,24 @@
 # Ejercicio 6
 
-numero_1 = int(input("Ingrese el primer numero entero: "))
-numero_2 = int(input("Ingrese el segundo numero entero: "))
-operador = input("Ingrese el operador (+, -, *, /): ")
-
-if operador == "+":
-    resultado = numero_1 + numero_2
-elif operador == "-":
-    resultado = numero_1 - numero_2
-elif operador == "*":
-    resultado = numero_1 * numero_2
-elif operador == "/":
-    resultado = numero_1 / numero_2
+datos = input('Ingrese la operacion separada por espacios o comas (ejm. 10, 5, +) :')
+datos_separados = datos.replace(',', ' ').split()
+if datos_separados[0].isdigit() and datos_separados[1].isdigit():
+    numero_1 = int(datos_separados[0])
+    numero_2 = int(datos_separados[1])
+    operador = datos_separados[2].strip()
+    if numero_1 and numero_2:
+        if operador == '+':
+            print('resultado:', numero_1 + numero_2)
+    elif operador == '-':
+        print('resultado:', numero_1 - numero_2)
+    elif operador == '*':
+        print('resultado:', numero_1 * numero_2)
+    elif operador == '/':
+        if numero_2 != 0:
+            print('resultado:', numero_1 / numero_2)
+        else:
+            print("No se puede dividir entre cero")
+    else:
+        print("Operador no válido")
 else:
-    resultado = None
-
-if resultado:
-    print("El resultado es:", resultado)
-else:
-    print("Operador no válido")
+    print("Datos de entrada no válidos recuerde el formato (ejm. 10, 5, +)")
