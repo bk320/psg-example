@@ -72,7 +72,7 @@ def verificar_fin_juego(tablero, jugador):
     return False
 
 def juego_tres_en_raya():
-    tablero = [['_' for _ in range(3)] for _ in range(3)]
+    tablero = [['_' for columna in range(3)] for fila in range(3)]
     jugadores = [('X', '❌'), ('O', '⭕')]
     turno = 0
     
